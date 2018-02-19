@@ -1,0 +1,489 @@
+﻿.grid-container {
+    display: grid;
+    grid-auto-columns:450px 450px 450px;
+    grid-auto-rows:auto;
+    grid-gap: 1px 1px;
+    background-color: #2196F3;
+    
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    text-align: center;
+    font-size: 20px;
+    color:white;
+   
+}
+.item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    height: 40px;
+    background-color: darkslategrey;
+    border-top:10px solid darkslategrey;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: darkslategrey;
+}
+
+li {
+    float: right;
+}
+
+ li a {
+     display: inline;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ li a:hover:not(.active) {
+    background-color:lightslategray;
+}
+
+.active {
+    background-color: darkslategrey;
+}
+.item2 {
+    grid-column: 1/span 3;
+    grid-row: 2;
+    height: 300px;
+    background-image: url('imagefile/tuscany-villas-sant-anna.jpg');
+}
+.button14 {
+    background-image: url('imagefile/Versilia.jpg');
+    height:300px;
+    width: 300px;
+    background-origin:content-box;
+}
+h1{
+   
+}
+.item3 {
+    grid-column: 1/ span 3;
+    grid-row: 3;
+    height:150px;
+    background-color: darkslategrey;
+}
+.item4 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    height: 225px;
+    background-color: white;
+    text-align:left;
+    color:darkslategrey;
+    border: 50px solid white;
+    border-style:solid;
+    border-color:white;
+}
+.button {
+    background-color:darkslategrey; 
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 1px 3px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color:lightslategray;
+    color: black;
+    border: 5px solid darkslategrey;
+}
+.button1:hover {
+     background-color:darkslategray;
+     color: white;
+}
+
+.item5 {
+    grid-column: 3;
+    grid-row: 4;
+    height: 225px;
+    background-image: url('imagefile/italy-mountain-villa.jpeg');
+    background-size:cover;
+    border:50px solid white;
+}
+.item6  {
+    grid-column: 1;
+    grid-row: 5;
+    height: 225px;
+    background-color: darkslategrey;
+    background-image: url('imagefile/modern-villa.jpeg');
+    background-size:cover;
+    border:50px solid darkslategrey;
+}
+.item7 {
+    grid-column: 2  / end 3;
+    grid-row: 5;
+    height: 225px;
+    background-color:darkslategrey;
+    text-align:left;
+    border: 50px solid darkslategrey;
+
+}
+.button2 {
+    background-color:white;
+    color: black;
+    border: 5px solid lightslategrey;
+}
+
+ .button2:hover {
+     background-color: white;
+     color: darkslategrey;
+}
+.item8 {
+    grid-column: 1 / span 2;
+    grid-row: 6;
+    height: 250px;
+    background-color:white;
+    color:darkslategrey;
+    text-align:left;
+    border:50px solid white;
+}
+.button3 {
+    background-color: lightslategray;
+    color: black;
+    border: 5px solid darkslategrey;
+}
+.button3:hover {
+    background-color: darkslategray;
+    color: white;
+}
+.item9 {
+    grid-column: 3;
+    grid-row: 6;
+    height: 250px;
+    background-color: white;
+    background-image: url('imagefile/tuscany-grape-field-nature-51947.jpeg');
+    background-size:cover;
+    border: 50px solid white;
+}
+.item10 {
+    grid-column: 1 / span 3;
+    grid-row: 7;
+    height: 150px;
+    background-color:darkslategray;
+}
+.item11 {
+    grid-column: 1;
+    grid-row: 8;
+    height: 350px;
+    background-image: url('imagefile/3b-348x348.jpg');
+    background-size:cover;
+    border-left: 50px solid white;
+    border-top: 50px solid white;
+}
+.button9 {
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 2px dotted darkslategrey;
+    margin: 150px 150px;   
+}
+
+.button9:hover {
+    background-color: darkslategrey;
+    color: white;
+    }
+.item12 {
+    grid-column: 2;
+    grid-row: 8;
+    height:350px;
+    background-color:white;
+    color:darkslategrey;
+    border-top: 50px solid white;
+}
+.button4 {
+    background-color: lightslategray;
+    color: black;
+    border: 5px solid darkslategrey;
+}
+
+.button4:hover {
+    background-color: darkslategray;
+    color: white;
+}
+.item13 {
+    grid-column: 3;
+    grid-row: 8;
+    height: 350px;
+    background-image: url('imagefile/42-348x348.jpg');
+    background-size:cover;
+    border-top: 50px solid white;
+    border-right: 50px solid white;
+}
+.button10 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 2px dotted darkslategrey;
+    margin: 100px 150px 150PX 100PX;
+}
+    .button10:hover {
+        background-color: darkslategrey;
+        color: white;
+    }
+.item14 {
+    grid-column: 1;
+    grid-row: 9;
+    height:350px;
+    background-color:white;
+    color:darkslategrey;
+    border-left: 50px solid white;
+}
+.button5 {
+    background-color: lightslategray;
+    color: black;
+    border: 5px solid darkslategrey;
+}
+
+.button5:hover {
+    background-color: darkslategray;
+    color: white;
+}
+.item15 {
+    grid-column: 2;
+    grid-row: 9;
+    height: 350px;
+    background-image: url('imagefile/tuscan_Vill_ images.jpg');
+    background-size:cover;
+}
+.button11 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 2px dotted darkslategrey;
+    margin: 150px 150px;
+}
+.button11:hover {
+        background-color: darkslategrey;
+        color: white;
+}
+.item16{
+    grid-column: 3;
+    grid-row: 9;
+    height: 350px;
+    background-color:white;
+    color:darkslategrey;
+    border-right:50px solid white;
+}
+.button6 {
+    background-color: lightslategray;
+    color: black;
+    border: 5px solid darkslategrey;
+}
+
+.button6:hover {
+    background-color: darkslategray;
+    color: white;
+    }
+.item17 {
+    grid-column: 1;
+    grid-row: 10;
+    height: 350px;
+    background-image: url('imagefile/Villa-Rucellai-Toscani-2812-2-348x348.jpg') ;
+    background-size:cover;
+    border-left: 50px solid white;
+    border-bottom:50px solid white;
+}
+.button12 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 2px dotted darkslategrey;
+    margin: 150px 100px 100PX 150PX;
+}
+.button12:hover {
+        background-color: darkslategrey;
+        color: white;
+    }
+.item18 {
+    grid-column: 2;
+    grid-row: 10;
+    height:350px;
+    background-color: white;
+    color:darkslategrey;
+    border-bottom: 50px solid white;
+
+}
+.button7 {
+    background-color: lightslategray;
+    color: black;
+    border: 5px solid darkslategrey;
+}
+.button7:hover {
+     background-color: darkslategray;
+     color: white;
+    }
+.item19 {
+    grid-column: 3;
+    grid-row: 10;
+    height: 350px;
+    background-image: url('imagefile/Villa-Vanna-231-348x348.jpg');
+    background-size:cover;
+    border-right: 50px solid white;
+    border-bottom: 50px solid white;
+}
+.button13 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 2px dotted darkslategrey;
+    margin: 150px 150px;
+}
+.button13:hover {
+        background-color: darkslategrey;
+        color: white;
+    }
+.item20 {
+    grid-column: 1 / span 3;
+    grid-row: 11;
+    height:150px;
+    background-color:darkslategrey;
+}
+.item21 {
+    grid-column: 1 / span 3;
+    grid-row: 12;
+    height:400px;
+    background-color:white;
+}
+.carousel-wrapper {
+    height: 400px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+}
+
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.light {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
+    background-size: cover;
+}
+
+.item-2 {
+    background: url('https://static.pexels.com/photos/6506/alcohol-bar-drinks-party-large.jpg');
+    background-size: cover;
+}
+
+.item-3 {
+    background: url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
+    background-size: cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+
+
+.item22 {
+    grid-column: 1 / span 3;
+    grid-row: 13;
+    height:150px;
+    background-color: darkslategrey;
+}
+.item23 {
+    grid-column: 1  ;
+    grid-row: 14;
+    height:225px;
+    background-color:white;
+    border: 75px solid white;
+    color: darkslategrey;
+}
+.item24 {
+    grid-column: 2 / end 3;
+    grid-row: 14;
+    height:275px;
+    background-color:white;
+    border: 50px solid white;
+}
+p{
+    display:contents;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+    background-color: lightslategray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+        background-color: darkslategrey;
+}
+.item25{
+    grid-column: 1 / span 3;
+    grid-row: 15;
+    height:150px;
+    background-color: darkslategrey;
+}
+
+
